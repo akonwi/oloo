@@ -1,0 +1,16 @@
+{
+  "name": "oloo",
+  "version": "0.0.1",
+  "description": "Prototypal Polymorphism",
+  "main": "oloo.coffee",
+  "scripts": {
+    "test": "coffeetape oloo-spec.coffee | faucet"
+  },
+  "author": "akonwi",
+  "license": "ISC",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.4.0",
+    "coffeetape": "*"
+  }
+}
